@@ -1,9 +1,5 @@
 const axios = require('axios').default
-const express = require('express')
 const ChatBot = require('dingtalk-robot-sender')
-const app = express()
-app.use(express.json())
-app.use(express.urlencoded({ extended: false }))
 const robot = new ChatBot({
   baseUrl: 'https://oapi.dingtalk.com/robot/send',
   // 此处是钉钉生成的 webhook 中 ？号后面的token
