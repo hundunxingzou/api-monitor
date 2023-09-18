@@ -128,6 +128,9 @@ async function charts() {
 }
 
 async function monitr() {
+  const title = '接口错误test'
+  const text = 'test'
+  robot.markdown(title, text)
   await miningpool_pools()
   await records()
   await burns()
