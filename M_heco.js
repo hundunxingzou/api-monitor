@@ -6,7 +6,6 @@ app.use(express.json())
 app.use(express.urlencoded({ extended: false }))
 const robot = new ChatBot({
   baseUrl: 'https://oapi.dingtalk.com/robot/send',
-  // 此处是钉钉生成的 webhook 中 ？号后面的token
   accessToken:
     'e91dfa0eba828185029ecc803c78c3e0e56bff16aec01429670cc4259504382c',
   // 此处是签名

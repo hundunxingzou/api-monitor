@@ -1,5 +1,4 @@
 const axios = require('axios').default
-const schedule = require('node-schedule')
 const express = require('express')
 const ChatBot = require('dingtalk-robot-sender')
 const app = express()
