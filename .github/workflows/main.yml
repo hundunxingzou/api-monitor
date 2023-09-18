@@ -34,8 +34,5 @@ jobs:
             npm install
       - name: "运行 M_bsc"
         run: |
-            node M_bsc.js   
-      - name: "运行 M_bttc"
-        run: |
-            node M_bttc.js     
+            node M_bsc.js      
         
